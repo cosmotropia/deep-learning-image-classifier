@@ -45,7 +45,7 @@ Los archivos crudos deben vivir en `data/` (por ejemplo `t10k-images-idx3-ubyte`
 
 ## Notebook y salidas
 
-El archivo **`main.ipynb`** concentra el flujo completo: carga de datos, normalización, definición de arquitecturas, entrenamiento con validación, evaluación en test y comparación entre configuraciones. También se generan figuras como `accuracy.png`, `accuracy_2.png` y `comparacion_modelos.png` para visualizar curvas de entrenamiento y validación.
+El archivo **`main.ipynb`** concentra el flujo completo: carga de datos, normalización, definición de arquitecturas, entrenamiento con validación, evaluación en test y comparación entre configuraciones. También se generan figuras en **`images/`** (por ejemplo `images/accuracy.png`, `images/accuracy_2.png` y `images/comparacion_modelos.png`) para visualizar curvas de entrenamiento y validación.
 
 ---
 
@@ -65,6 +65,7 @@ El archivo **`main.ipynb`** concentra el flujo completo: carga de datos, normali
 | `main.ipynb` | Entrenamiento, métricas y comparación densa vs CNN |
 | `app.py` | Interfaz Streamlit |
 | `fashion_model.h5` | CNN guardada para producción local |
+| `images/` | Figuras exportadas por el notebook (curvas, predicciones) |
 | `data/` | Archivos IDX de Fashion-MNIST |
 | `requirements.txt` | Dependencias Python |
 
